@@ -8,6 +8,13 @@ Originalmente, o projeto tinha como objetivo criar várias contas em um site. No
 
 Siga as instruções abaixo para configurar e executar o programa.
 
+- Clone o repositório:
+
+
+```bash
+git clone https://github.com/JonasCaetanoSz/estudando-gui-python.git
+```
+
 - Crie e ative o ambiente virtual:
 
 
