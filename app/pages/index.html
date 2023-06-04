@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-sm-12 text-center logo">
+        <img src="assets/logo.png" alt="Logo">
+        <span class="ml-2">prospex Multiplas Contas</span>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="numeroContas"><i class="fas fa-users"></i> Número de Contas</label>
+          <select class="form-control" id="numeroContas">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="email"><i class="fas fa-envelope"></i> Email</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <div class="form-group">
+            <label for="senha"><i class="fas fa-lock"></i> Senha</label>
+            <div class="input-group">
+              <input type="password" class="form-control" id="senha">
+              <div class="input-group-append">
+                <span class="input-group-text">
+                  <i class="fas fa-eye-slash toggle-password"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        <div class="form-group">
+          <label for="alias"><i class="fas fa-user"></i> Alias</label>
+          <input type="text" class="form-control" id="alias" disabled="true">
+        </div>
+        <div class="form-group">
+          <label for="formato"><i class="fas fa-file"></i> Formato de Saída</label>
+          <select class="form-control" id="formato">
+            <option value="xlsx">XLSX</option>
+            <option value="html">HTML</option>
+          </select>
+        </div>
+        <div class="checkbox-group">
+          <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="headersAleatorios">
+            <label class="form-check-label" for="headersAleatorios">Usar Headers Aleatórios</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="usarProxys">
+            <label class="form-check-label" for="usarProxys">Usar Proxys</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="checkbox" class="form-check-input" id="aliasPersonalizado">
+            <label class="form-check-label" for="aliasPersonalizado">
+              Escolher o Alias</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block mt-3">Iniciar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>

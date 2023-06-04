@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <style>
+    body {
+      background-color: #f4f4f4;
+    }
+    .container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      max-width: 400px;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+    }
+    .log-area {
+      height: 300px;
+      overflow-y: auto;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .loading-icon {
+      display: none;
+    }
+    .btn-primary:disabled .loading-icon {
+      display: inline-block;
+    }
+    .logo {
+      background-color: #ffc107;
+      padding: 20px;
+      color: #333;
+      text-align: center;
+    }
+    .logo img {
+      width: 50px;
+      height: 60px;
+    }
+
+    ::-webkit-scrollbar {
+  width: 8px; 
+}
+
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 4px; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="logo">
+        <img src="assets/logo.png" alt="Logo">
+        <span class="ml-2">prospex Multiplas Contas</span>
+      </div>
+      <div class="log-area" id="logArea"></div>
+      <button type="button" class="btn btn-primary btn-block mt-3" disabled>
+        <span class="loading-icon"><i class="fas fa-spinner fa-spin"></i></span>
+        Gerando contas
+      </button>
+    </div>
+  </div>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/creating.js"></script>
+</body>
+</html>

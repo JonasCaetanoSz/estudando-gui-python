@@ -1,0 +1,10 @@
+{
+    "numeroContas": "19",
+    "email": "exemplo@dominio.com",
+    "senha": "sua_senha_de_app_aqui",
+    "alias": "23",
+    "formato": "xlsx",
+    "headersAleatorios": false,
+    "usarProxys": true,
+    "aliasPersonalizado": false
+}
